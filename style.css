@@ -17,6 +17,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 32px;
+}
+
+.headers h1 {
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 ul,
@@ -24,27 +30,27 @@ a {
   list-style-type: none;
   text-decoration: none;
   display: flex;
-  margin: 0;
   gap: 36px;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .headers {
-  flex: 1;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
   gap: 16px;
+  margin-bottom: 86px;
 }
 
 .hero {
-  flex: 1;
   display: flex;
   align-items: center;
   gap: 16px;
   width: 100%;
   justify-content: space-evenly;
-  padding: 32px;
+  margin-bottom: 48px;
 }
 
 .hero-content {
@@ -54,16 +60,37 @@ a {
   gap: 16px;
 }
 
+.hero h1 {
+  font-weight: 800;
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
 .hero h1,
 .hero p {
-  max-width: 200px;
+  max-width: 300px;
 }
 
 .hero button {
   align-self: flex-start;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 8px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  width: 125px;
+  cursor: pointer;
 }
 
 .hero img {
   width: 400px;
-  height: auto;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 25px;
 }
